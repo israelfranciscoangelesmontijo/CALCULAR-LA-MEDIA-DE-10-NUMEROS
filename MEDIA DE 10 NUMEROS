@@ -1,0 +1,20 @@
+/*UAEH EXAMEN SEGUNDO PARCIAL
+INGENIERIA EN ELCTRONICA
+ISRAEL FRANCISCO ANGELES MONTIJO
+CALCULAR LA MEDIA DE 10 NUMEROS*/ 
+#include <stdio.h>
+#include <math.h>
+int main()  {
+int i;	
+int arreglo[10];
+int NUMEROS, MEDIA;
+printf("INGRESE 10 NUMEROS:  \n");
+for( i = 0; i < 10; i++ ) {
+printf( "(%d): ", i + 1 );	
+scanf( "%d", &arreglo[10] );
+}
+NUMEROS=NUMEROS+arreglo[i];
+MEDIA=NUMEROS/10;
+printf("EL VALOR DE LA MEDIA ES=%d",MEDIA);
+return 0;
+}
